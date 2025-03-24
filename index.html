@@ -3,17 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Assignment 1 - MERN Internship</title>
+    <title>MERN Internship Assignment</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 20px;
             padding: 20px;
+            background-color: #f8f9fa;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        .collapsible {
+            background-color: #007bff;
+            color: white;
+            cursor: pointer;
+            padding: 10px;
+            width: 100%;
+            border: none;
+            text-align: left;
+            outline: none;
+            font-size: 18px;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        .content {
+            display: none;
+            padding: 10px;
+            background-color: #f1f1f1;
+            border-radius: 5px;
+            margin-top: 5px;
         }
         table {
             width: 100%;
             border-collapse: collapse;
-            margin-top: 20px;
+            margin-top: 10px;
         }
         th, td {
             border: 1px solid #000;
@@ -21,7 +50,7 @@
             text-align: center;
         }
         th {
-            background-color: #f4f4f4;
+            background-color: #e9ecef;
         }
         a {
             text-decoration: none;
@@ -33,103 +62,75 @@
     </style>
 </head>
 <body>
-    <h1>MERN Internship Assignment 1</h1>
-    <p><strong>Name:</strong> Abheet Seth</p>
-    <p><strong>Registration Number:</strong> 22BCY10162</p>
-    <p><strong>Email ID:</strong> <a>abheetseth2022@vitbhopal.ac.in</a></p>
+    <div class="container">
+        <h1>MERN Internship Assignment</h1>
+        <p><strong>Name:</strong> Abheet Seth</p>
+        <p><strong>Registration Number:</strong> 22BCY10162</p>
+        <p><strong>Email:</strong> <a href="mailto:abheetseth2022@vitbhopal.ac.in">abheetseth2022@vitbhopal.ac.in</a></p>
+        
+        <button class="collapsible">HTML Tasks</button>
+        <div class="content">
+            <table>
+                <tr><th>Task</th><th>Link</th></tr>
+                <tr><td>Task 1</td><td><a href="./HTMLTASK/task1.html">Task 1</a></td></tr>
+                <tr><td>Task 2</td><td><a href="./HTMLTASK/task2.html">Task 2</a></td></tr>
+                <tr><td>Task 2</td><td><a href="./HTMLTASK/task3.html">Task 3</a></td></tr>
+                <tr><td>Task 2</td><td><a href="./HTMLTASK/task4.html">Task 4</a></td></tr>
+                <tr><td>Task 2</td><td><a href="./HTMLTASK/task5.html">Task 5</a></td></tr>
+            </table>
+        </div>
+        
+        <button class="collapsible">CSS Tasks</button>
+        <div class="content">
+            <table>
+                <tr><th>Task</th><th>Link</th></tr>
+                <tr><td>Task 1</td><td><a href="./CSSTASK/task1.html">Task 1</a></td></tr>
+                <tr><td>Task 2</td><td><a href="./CSSTASK/task2.html">Task 2</a></td></tr>
+                <tr><td>Task 2</td><td><a href="./CSSTASK/task3.html">Task 3</a></td></tr>
+                <tr><td>Task 2</td><td><a href="./CSSTASK/task4.html">Task 4</a></td></tr>
+                <tr><td>Task 2</td><td><a href="./CSSTASK/task5.html">Task 5</a></td></tr>
+                <tr><td>Task 2</td><td><a href="./CSSTASK/task6.html">Task 6</a></td></tr>
+            </table>
+        </div>
+        
+        <button class="collapsible">Bootstrap Tasks</button>
+        <div class="content">
+            <table>
+                <tr><th>Task</th><th>Link</th></tr>
+                <tr><td>Task 1</td><td><a href="./BSTASK/task1.html">Task 1</a></td></tr>
+                <tr><td>Task 2</td><td><a href="./BSTASK/task2.html">Task 2</a></td></tr>
+                <tr><td>Task 2</td><td><a href="./BSTASK/task3.html">Task 3</a></td></tr>
+                <tr><td>Task 2</td><td><a href="./BSTASK/task4.html">Task 4</a></td></tr>
+                <tr><td>Task 2</td><td><a href="./BSTASK/task5.html">Task 5</a></td></tr>
+                <tr><td>Task 2</td><td><a href="./BSTASK/task6.html">Task 6</a></td></tr>
+            </table>
+        </div>
+        
+        <button class="collapsible">JavaScript Tasks</button>
+        <div class="content">
+            <table>
+                <tr><th>Task</th><th>Link</th></tr>
+                <tr><td>Task 1</td><td><a href="./JSTASK/task1.html">Task 1</a></td></tr>
+                <tr><td>Task 2</td><td><a href="./JSTASK/task2.html">Task 2</a></td></tr>
+                <tr><td>Task 2</td><td><a href="./JSTASK/task3.html">Task 3</a></td></tr>
+                <tr><td>Task 2</td><td><a href="./JSTASK/task4.html">Task 4</a></td></tr>
+                <tr><td>Task 2</td><td><a href="./JSTASK/task5.html">Task 5</a></td></tr>
+                <tr><td>Task 2</td><td><a href="./JSTASK/task6.html">Task 6</a></td></tr>
+                <tr><td>Task 2</td><td><a href="./JSTASK/task7.html">Task 7</a></td></tr>
+                <tr><td>Task 2</td><td><a href="./JSTASK/task8.html">Task 8</a></td></tr>
+                <tr><td>Task 2</td><td><a href="./JSTASK/task9.html">Task 9</a></td></tr>
+            </table>
+        </div>
+    </div>
     
-    <h3>HTML Tasks</h3>
-    <table>
-        <tr>
-            <th>Task</th>
-            <th>Link</th>
-        </tr>
-        <tr>
-            <td>Task 1</td>
-            <td><a href="./HTMLTASK/task1.html">Task 1</a></td>
-        </tr>
-        <tr>
-            <td>Task 2</td>
-            <td><a href="./HTMLTASK/task2.html">Task 2</a></td>
-        </tr>
-        <tr>
-            <td>Task 3</td>
-            <td><a href="./HTMLTASK/task3.html">Task 3</a></td>
-        </tr>
-        <tr>
-            <td>Task 4</td>
-            <td><a href="./HTMLTASK/task4.html">Task 4</a></td>
-        </tr>
-        <tr>
-            <td>Task 5</td>
-            <td><a href="./HTMLTASK/task5.html">Task 5</a></td>
-        </tr>
-    </table>
-    <h3>CSS Tasks</h3>
-    <table>
-        <tr>
-            <th>Task</th>
-            <th>Link</th>
-        </tr>
-        <tr>
-            <td>Task 1</td>
-            <td><a href="./CSSTASK/task1.html">Task 1</a></td>
-        </tr>
-        <tr>
-            <td>Task 2</td>
-            <td><a href="./CSSTASK/task2.html">Task 2</a></td>
-        </tr>
-        <tr>
-            <td>Task 3</td>
-            <td><a href="./CSSTASK/task3.html">Task 3</a></td>
-        </tr>
-        <tr>
-            <td>Task 4</td>
-            <td><a href="./CSSTASK/task4.html">Task 4</a></td>
-        </tr>
-        <tr>
-            <td>Task 5</td>
-            <td><a href="./CSSTASK/task5.html">Task 5</a></td>
-        </tr>
-        <tr>
-            <td>Task 5</td>
-            <td><a href="./CSSTASK/task6.html">Task 6</a></td>
-        </tr>
-        <tr>
-            <td>Task 5</td>
-            <td><a href="./CSSTASK/task7.html">Task 7</a></td>
-        </tr>
-    </table>
-    <h3>BS Tasks</h3>
-    <table>
-        <tr>
-            <th>Task</th>
-            <th>Link</th>
-        </tr>
-        <tr>
-            <td>Task 1</td>
-            <td><a href="./BSTASK/task1.html">Task 1</a></td>
-        </tr>
-        <tr>
-            <td>Task 2</td>
-            <td><a href="./BSTASK/task2.html">Task 2</a></td>
-        </tr>
-        <tr>
-            <td>Task 3</td>
-            <td><a href="./BSTASK/task3.html">Task 3</a></td>
-        </tr>
-        <tr>
-            <td>Task 4</td>
-            <td><a href="./BSTASK/task4.html">Task 4</a></td>
-        </tr>
-        <tr>
-            <td>Task 5</td>
-            <td><a href="./BSTASK/task5.html">Task 5</a></td>
-        </tr>
-        <tr>
-            <td>Task 5</td>
-            <td><a href="./BSTASK/task6.html">Task 6</a></td>
-        </tr>
-    </table>
+    <script>
+        document.querySelectorAll(".collapsible").forEach(button => {
+            button.addEventListener("click", function() {
+                this.classList.toggle("active");
+                let content = this.nextElementSibling;
+                content.style.display = content.style.display === "block" ? "none" : "block";
+            });
+        });
+    </script>
 </body>
 </html>
